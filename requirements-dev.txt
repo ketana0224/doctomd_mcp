@@ -1,0 +1,3 @@
+# Client-side dependencies for local test scripts (test.py 等)
+# サーバー(Azure Functions) 側の依存は src/requirements.txt を参照
+mcp>=1.0.0

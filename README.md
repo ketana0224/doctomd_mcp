@@ -146,7 +146,7 @@ from mcp import ClientSession
 from mcp.client.streamable_http import streamablehttp_client
 
 ENDPOINT = "https://func-mcp-xxxxxx.azurewebsites.net/runtime/webhooks/mcp"
-PDF = Path("report.pdf")
+PDF = Path("sample.pdf")
 
 async def main():
     pdf_b64 = base64.b64encode(PDF.read_bytes()).decode("ascii")

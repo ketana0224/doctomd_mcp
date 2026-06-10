@@ -1,0 +1,20 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+
+    "BLOB_ACCOUNT_URL": "https://<your-storage>.blob.core.windows.net",
+    "BLOB_CONTAINER_PDFCUT": "pdf-cut",
+    "BLOB_CONTAINER_CUMD": "cu-md",
+    "BLOB_CONTAINER_FIGURES": "figures",
+
+    "AZURE_CONTENT_UNDERSTANDING_ENDPOINT": "https://<your-aif>.services.ai.azure.com/",
+    "AZURE_CONTENT_UNDERSTANDING_API_VERSION": "2025-11-01",
+    "AZURE_OPENAI_API_ENDPOINT": "https://<your-aif>.services.ai.azure.com/openai/v1",
+    "AZURE_FOUNDRY_PROJECT_ENDPOINT": "https://<your-aif>.services.ai.azure.com/api/projects/proj-mcp",
+    "AOAI_GA_DEPLOYMENT": "gpt-5.4",
+
+    "MAX_PDF_BYTES": "52428800"
+  }
+}

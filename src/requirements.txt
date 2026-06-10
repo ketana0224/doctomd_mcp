@@ -1,0 +1,16 @@
+# Azure Functions Python (v2 programming model)
+azure-functions>=1.21.0
+
+# Azure SDK
+azure-identity>=1.19.0
+azure-storage-blob>=12.23.0
+azure-ai-contentunderstanding>=1.0.0b1
+azure-ai-projects>=2.0.0
+azure-core>=1.32.0
+
+# OpenAI (Foundry project endpoint 経由で使用)
+openai>=1.55.0
+
+# PDF / image
+pymupdf>=1.24.10
+Pillow>=10.4.0
